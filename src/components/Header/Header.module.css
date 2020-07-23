@@ -1,0 +1,9 @@
+.header {
+    grid-area: h;
+    background: green;
+  }
+
+  .imageBlock {
+    max-width: 100px;
+  }
+  
