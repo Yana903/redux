@@ -2,13 +2,13 @@ import React from 'react';
 import '../../../../App.css';
 import classes from "./Post.module.css"
 
-const Post = () => {
+const Post = (props) => {
   return (
             <div className={classes.item}>
-              post 1
+              {props.message}
               <div>
-              <span>like</span>
-            </div>
+                like: <span>{props.likesCount}</span>
+              </div>
             </div>
           );
 }
