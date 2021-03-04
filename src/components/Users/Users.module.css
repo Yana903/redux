@@ -1,0 +1,11 @@
+img {
+    width: 100%;
+}
+
+.imgBlock  {
+    width: 100px;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
